@@ -1,0 +1,36 @@
+.header {
+    height: 180px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.emp-data,.emp-form {
+    border: 2px solid black;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.emp-data table {
+    width: 100%;
+}
+
+.emp-data th {
+    padding: 5px;
+}
+
+.section-header {
+    background-color: #4a73cb;
+    color: #fff;
+}
+
+.emp-form button {
+    margin-top: 15px;
+}
+
+
+#employee-data {
+    border-spacing: 5px;
+    margin-top:
+}
