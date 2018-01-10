@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timesheet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="header col-md-12">
+                    <h1>Employee Data Management</h1>
+                    <h3>A Comprehensive Directory of Employee Billable Hours</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container emp-data">
+
+            <div class="row section-header">
+                <div class="col-md-12">
+                    <h4>Current Employees</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table id="employee-table">
+                        <tr>
+                            <th>Employee Name</th>
+                            <th>Role</th>
+                            <th>Start Date</th>
+                            <th>Months Worked</th>
+                            <th>Monthly Rate ($)</th>
+                            <th>Total Billed ($)</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="container emp-form">
+            <div class="row">
+                <div class="col-md-12 section-header">
+                    <h4>Add Employee</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="submit">
+                        <label for="usr">Employee Name:</label>
+                        <input type="text" class="form-control" id="emp-name">
+                        <label for="usr">Role:</label>
+                        <input type="text" class="form-control" id="emp-role">
+                        <label for="usr">Start Date (DD/MM/YY):</label>
+                        <input type="text" class="form-control" id="emp-start">
+                        <label for="usr">Monthly Rate:</label>
+                        <input type="text" class="form-control" id="emp-rate">
+                        <button class="btn btn-primary" id="add-employee">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
